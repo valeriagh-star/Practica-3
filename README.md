@@ -12,22 +12,22 @@
 
 ---
 
-> ## Patrones de Diseño Aplicados
+ ## Patrones de Diseño Aplicados
 
-> 1. **Composite**
+ 1. **Composite**
    - **Propósito:** Tratar archivos individuales y carpetas mediante una interfaz común (`Elemento`).
    - **Beneficio:** Simplifica el cálculo recursivo del tamaño total sin necesidad de verificar si un objeto es un archivo o una carpeta.
 
-> 2. **Factory Method**
+ 2. **Factory Method**
    - **Propósito:** Encapsular y delegar la creación de los distintos tipos de archivos (`ArchivoPDF`, `ArchivoTexto`) a creadores especializados (`CreadorArchivo`).
    - **Beneficio:** Desacopla la clase principal (`Main`) de la instanciación directa de objetos.
 
-> 3. **Adapter**
+ 3. **Adapter**
    - **Propósito:** Conectar el sistema con un servicio de correo simulado (`CorreoLegacy`).
    - **Beneficio:** Permite que el cliente trabaje contra una interfaz genérica (`Notificador`) sin depender de los nombres de métodos específicos del componente de correo.
 ---
 
-> ## Estrategia de Trabajo
+ ## Estrategia de Trabajo
 - **Pruebas Unitarias Iniciales:** Implementación de comprobaciones sencillas para verificar casos borde (carpetas vacías, subcarpetas, archivos con tamaño 0) antes de refactorizar.
 - **Evolución Gradual:** Aplicación de los cambios paso a paso para asegurar que las pruebas sigan pasando después de cada modificación.
 - **Validación Final:** Verificación del total de tamaño obtenido (250) y del mensaje de correo simulado.
@@ -40,7 +40,7 @@
 
 ---
 
-### Instrucciones para ejecutar el programa:
+## Instrucciones para ejecutar el programa:
 
 * Clonar el repositorio remoto e ingresar a la carpeta del proyecto:
 
