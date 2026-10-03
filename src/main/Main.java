@@ -84,6 +84,5 @@ public class Main {
         // Envío mediante adaptador
         Notificador notificador = new AdaptadorCorreo(new CorreoLegacy());
         enviarResultado(clase, "profesor@universidad.edu", notificador);
-        
     }
 }
