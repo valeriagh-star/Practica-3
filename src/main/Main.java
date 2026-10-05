@@ -1,3 +1,5 @@
+// Versión final elaborada para la Práctica 3
+
 package main;
 
 import factoryMethod.CreadorArchivo;
