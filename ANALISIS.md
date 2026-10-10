@@ -31,10 +31,10 @@
 2. **Doble lista y lógica condicional/recursiva explícita (Falta de abstracción en la estructura)**
 
 
-   * **¿Dónde aparece'**: En la clase `Carpeta` (listas separadas `archivos` y `subcarpetas`) y en el método `obtenerTamanio`.
+   * **¿Dónde aparece?**: En la clase `Carpeta` (listas separadas `archivos` y `subcarpetas`) y en el método `obtenerTamanio`.
    
    
-   * **¿Por qué es difícil cambiar'**: Trata a los archivos y a las carpetas de forma distinta, obligando a usar algoritmos explícitos para iterar ambos tipos por separado.
+   * **¿Por qué es difícil cambiar?**: Trata a los archivos y a las carpetas de forma distinta, obligando a usar algoritmos explícitos para iterar ambos tipos por separado.
    
    
    * **Responsable**: Se resuelve mediante el patrón **Composite** (`Elemento`), permitiendo tratar componentes simples y compuestos de manera unificada.
